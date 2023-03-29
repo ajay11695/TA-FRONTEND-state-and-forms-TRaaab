@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ************* */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 2rem 0;
+  /* background-color: rgb(234,245,248); */
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./image/brooke-lark-HlNcigvUi4Q-unsplash.jpg');
+}
+
+.container{
+  max-width: 1400px ;
+  margin: 0 auto;
+}
+.container2{
+  max-width: 400px ;
+  margin: 0 auto;
+}
+
+.textalign{
+  text-align: center;
+}
+
+/* flex */
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+/* header */
+.heading{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hr{
+  width: 6rem;
+  border: 2px solid gray;
+}
+
+/* main */
+.tag{
+  font-size: 1.2rem;
+  color: rgb(225, 189, 97);
+  margin: 1rem 0 2rem 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.tag:hover{
+  background-color: rgb(225, 189, 97);
+  color: rgb(78, 75, 75);
+}
+
+.active{
+  background-color: rgb(225, 189, 97);
+  color: rgb(78, 75, 75);
+}
+
+.dis{
+  width: 45%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: rgb(111, 225, 187);
+}
+
+p{
+  font-weight: 600;
+  color: rgb(65, 48, 48);
+}
+
+.price{
+  color:rgb(101, 101, 215);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
