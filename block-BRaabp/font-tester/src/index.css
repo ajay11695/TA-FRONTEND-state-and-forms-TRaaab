@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500&family=Bitter&family=Inter:wght@300&family=M+PLUS+1+Code:wght@500;600&family=Nunito:wght@300&family=Open+Sans:wght@300;400&family=Oxygen:wght@700&family=Poppins:wght@100&family=Rajdhani:wght@600&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;1,500&display=swap');
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.text{
+    padding: 1rem 2rem;
+     width: 50%;
+   border: none;
+}
+
+label{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.select{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-box{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4rem;
+    align-items: center;
+    border: 1px solid;
+   border-radius: 2rem;
+   padding:0 2rem ;
+}
+::placeholder{
+    font-size: 1rem;
+}
+
+h2{
+    text-align: center;
+}
+
+span{
+  font-size: 1.2rem;
+}
+
+
+.all-box{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.font-box{
+    flex: 0 1 30%;
+    background-color: gainsboro;
+    padding: 1rem;
+    margin-top: .8rem;
+    border-radius: .4rem;
+}
+
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.roboto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.anton{
+font-family: 'Anton', sans-serif;
+}
+.barlow{
+font-family: 'Barlow', sans-serif;
+}
+.bitter{
+font-family: 'Bitter', serif;
+}
+.inter{
+font-family: 'Inter', sans-serif;
+}
+.plus{
+font-family: 'M PLUS 1 Code', sans-serif;
+}
+.nunito{
+font-family: 'Nunito', sans-serif;
+}
+
+.oxygen{
+font-family: 'Oxygen', sans-serif;
+}
+.poppin{
+font-family: 'Poppins', sans-serif;
+}
+
+
+
