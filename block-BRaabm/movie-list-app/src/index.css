@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+/* ****************** */
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: aliceblue;
+    line-height: 1.5;
+}
+
+main{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*container  */
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+    
+
+h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+figure{
+    width: 100%;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.movie img{
+  height: 50vh;
+}
+
+.movie{
+    width: 30%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.movie:hover>button{
+   visibility: visible;
+}
+
+.movie-date{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movie-name{
+    color: rgb(62, 62, 74);
+}
+
+ button{
+    margin-top: 1rem;
+    padding: .4rem .8rem;
+    color: black;
+    border: none;
+    border-radius: .2rem;
+}
+
+.active-btn{
+    visibility: hidden;
+}
+
+.home{
+  cursor: pointer;
+}
+
+.single-movie{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+
+.single-image{
+    width: 50%;
+    
+}
+.allImages{
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+}
+.clips{
+    display: flex;
+   justify-content: center;
+   font-size: 1.5rem;
+   color: navy;
+   font-weight: bold;
+   margin-top: 2rem;
+}
+
+
+.allImages img{
+    width: 30%;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
